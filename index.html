@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="todo.css"/>
+        <title>Todo List</title>
+    </head>
+    <body>
+        <h1 class="heading">My ToDo List</h1>
+        <hr>
+        <div class="addTodo">
+            <input id="todoInput" maxlength="30" placeholder="Enter Todo"></input>
+            <input type="date" id="newDueDate"  placeholder="Due Date"></input>
+            <input type="time" id="newDueTime"  placeholder="Due Time"></input>
+            <button id="addButton">Add</button>
+
+        </div>
+        <hr>
+        <div class="block1">
+            <h2 class="b">Incomplete Task      <button id="deleteAll">Clear All</button></h2>
+            <div id="toDoList" class="toDoList">
+
+            
+            </div>
+        </div>
+        <div class="block2">   
+            <h2 class="c">Completed Task      <button id="deleteComp" >Clear All Completed Todo</button></h2>
+            <div id="completed" class="completed">
+                
+
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>   
